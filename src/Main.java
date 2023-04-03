@@ -3,6 +3,9 @@ import homeWork1.LetterSwitch;
 import homeWork1.Seasons;
 import homeWork1.Exit;
 import homeWork1.Sum;
+import homeWork2.Fibonacci;
+import homeWork2.SumMinMax;
+import homeWork2.Difference;
 
 public class Main {
 
@@ -28,7 +31,25 @@ public class Main {
     // public static void main(String[] args) {
     // Sum sum = new Sum();
     //     sum.arithmetic();
+
+    // public static void main(String[] args) {
+    //     Fibonacci fib = new Fibonacci();
+    //     fib.fibonacci();
+
+    //public static void main(String[] args) {
+    //  SumMinMax sumMinMax = new SumMinMax();
+    //sumMinMax.min_max();
+
+    //  public static void main(String[] args) {
+    //      Difference difference = new Difference();
+    //      difference.diff();
 }
+}
+
+
+
+
+
 
 
 
