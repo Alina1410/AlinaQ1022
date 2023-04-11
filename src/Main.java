@@ -6,6 +6,7 @@ import homeWork1.Sum;
 import homeWork2.Fibonacci;
 import homeWork2.SumMinMax;
 import homeWork3.MonthName;
+import homeWork3.MyDeprecated;
 import homeWork3.Season;
 
 public class Main {
@@ -46,12 +47,19 @@ public class Main {
     //      difference.diff();
 
 
-    public static void main(String[] args) {
-        Season season=new Season();
-        season.mounth(MonthName.DESEMBER);
+    // public static void main(String[] args) {
+    //    Season season=new Season();
+    //    season.mounth(MonthName.DESEMBER);
 
+
+    public static void main(String[] args) {
+        MyDeprecated myDeprecated=new MyDeprecated();
+        myDeprecated.perimeter();
     }
+
+
 }
+
 
 
 
