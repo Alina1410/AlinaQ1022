@@ -9,7 +9,7 @@ public class Fibonacci {
             } else {
                 number[i] = number[i - 2] + number[i - 1];
             }
-            System.out.println(number[i] + " ");
+            System.out.print(number[i] + " ");
         }
     }
 }

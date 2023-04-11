@@ -5,7 +5,8 @@ import homeWork1.Exit;
 import homeWork1.Sum;
 import homeWork2.Fibonacci;
 import homeWork2.SumMinMax;
-import homeWork2.Difference;
+import homeWork3.MonthName;
+import homeWork3.Season;
 
 public class Main {
 
@@ -43,7 +44,15 @@ public class Main {
     //  public static void main(String[] args) {
     //      Difference difference = new Difference();
     //      difference.diff();
+
+
+    public static void main(String[] args) {
+        Season season=new Season();
+        season.mounth(MonthName.DESEMBER);
+
+    }
 }
+
 
 
 
