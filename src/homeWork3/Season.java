@@ -3,12 +3,8 @@ package homeWork3;
 import java.util.Scanner;
 
 public class Season {
-    public void mounth(MonthName monthName){
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter month name ");
-        String name = scanner.nextLine().toLowerCase();
-
-        switch (monthName){
+    public void mounth(MonthName monthName) {
+        switch (monthName) {
             case DESEMBER:
             case JUNUARY:
             case FEBRYARY:
@@ -28,8 +24,7 @@ public class Season {
             case OCTOBER:
             case NOVEMBER:
                 System.out.println("Autumn");
-            default:
-                System.out.println("Error");
+
 
         }
 
