@@ -1,6 +1,7 @@
 import homeWork1.*;
 import homeWork2.Fibonacci;
 import homeWork2.SumMinMax;
+import homeWork3.ArrayClass;
 import homeWork3.MonthName;
 import homeWork3.MyDeprecated;
 import homeWork3.Season;
@@ -47,6 +48,14 @@ public class Main {
 
         //MyDeprecated myDeprecated = new MyDeprecated();
         //myDeprecated.perimeter();
+
+        int[] arr = {2, 13, 4, -7, 15, 48, -4};
+        ArrayClass arrayClass = new ArrayClass();
+        arrayClass.printSortArray(arr);
+        arrayClass.printMaxValue(arr);
+        arrayClass.printMinValue(arr);
+        arrayClass.printElement(arr,5);
+        arrayClass.printDivinEvenOdd(arr);
     }
 
 
