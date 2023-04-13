@@ -1,5 +1,4 @@
-import homeWork3.*;
-import homeWork3.USER.UserAdress;
+import homeWork3.class1.MyClass;
 
 public class Main {
     public static void main(String[] args) {
@@ -64,6 +63,11 @@ public class Main {
         //  MyOverload myOverload=new MyOverload();
         //  System.out.println(myOverload.calculations(5,7));
         //  System.out.println(myOverload.calculation(5.14,17.3));
+
+        MyClass myClass1=new homeWork3.class1.MyClass();
+        myClass1.printClass();
+        MyClass myClass2= new MyClass();
+        myClass2.printClass();
 
 
     }
