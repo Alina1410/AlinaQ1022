@@ -1,9 +1,7 @@
 package homeWork3;
 
-import java.util.Scanner;
-
 public class Season {
-    public void mounth(MonthName monthName) {
+    public void mounth(MONTH_NAME monthName) {
         switch (monthName) {
             case DESEMBER:
             case JUNUARY:

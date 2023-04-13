@@ -1,10 +1,4 @@
-import homeWork1.*;
-import homeWork2.Fibonacci;
-import homeWork2.SumMinMax;
 import homeWork3.ArrayClass;
-import homeWork3.MonthName;
-import homeWork3.MyDeprecated;
-import homeWork3.Season;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,8 +1,6 @@
 package homeWork3;
 
-import java.util.Scanner;
-
-public enum MonthName {
+public enum MONTH_NAME {
     DESEMBER, JUNUARY, FEBRYARY,
     MARCH, APRIL, MAY,
     JUNE, JULY, AUGUST,
